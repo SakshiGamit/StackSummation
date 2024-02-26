@@ -1,0 +1,40 @@
+h1{
+    color: rgb(7, 118, 245);
+}
+
+.box, .eventBox{
+    height: 100px;
+    width: 100px;
+    background-color: #f57dfb;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid purple;
+}
+#idOfdiv4{
+    height: 100px;
+    width: 100px;
+    background-color: #3fb3fb;
+    color: white;
+    margin: 15px 5px 5px 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+.content{
+    color: rgb(246, 171, 246);
+}
+.newContent{
+    background-color: rgb(7, 118, 245);
+   
+}
+.eventBox{
+    background-color: purple;
+    color: white;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}

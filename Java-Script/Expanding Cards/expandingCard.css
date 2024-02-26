@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Trirong", serif;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
+.card{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 30px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.5s ease-in;
+}
+h3{ font-size:30px ;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    color: white;
+}
+.card.active{
+    flex: 5;
+}
+.card.active h3{
+    opacity: 1;
+    transition: opacity 0.2s ease-in 0.2s;
+}
+@media (max-width: 500px){
+    .container{
+        width: 100vw;
+    }
+    .card:nth-of-type(4),
+    .card:nth-of-type(5){
+        display: none;
+    }
+}
