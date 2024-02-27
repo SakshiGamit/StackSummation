@@ -1,8 +1,9 @@
 import React from 'react';
 
-function Greet(){
 const today = new Date().toLocaleDateString();
 const time = new Date().toLocaleTimeString();
+
+function Greet(){
 
 const Time = new Date().getHours();
 let greeting = '';
@@ -33,4 +34,5 @@ return( <>
 ); 
 }
 export default Greet;
+export {today, time};
 

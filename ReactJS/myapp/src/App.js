@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from './Head';
-import Greet from './Greet';
+import Greet, {today, time} from './Greet';
 import List from './List';
 import './App.css';
 
@@ -9,6 +9,9 @@ function App() {
     <Greet />
     <Head />
     <List />
+    <p>Practicing import & export :<br />
+    Today the date is {today}.<br />
+    Time : {time}</p>
     </>
   );
 }
