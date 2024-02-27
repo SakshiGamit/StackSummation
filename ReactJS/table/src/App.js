@@ -9,7 +9,7 @@ const head = {
 function App() {
     return (
         <div className="App">
-            <h2 style={head}>Netflix Series</h2>
+            <h1 style={head}>Netflix Series</h1>
             <JsonDataDisplay />
         </div>
     );
