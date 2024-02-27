@@ -1,3 +1,2 @@
-# Listing using a Table and static JSON data
-Demo : 
-![web](ReactJS\table\background.png)
+# Listing using a Table and static JSON data 
+![web](background.png)
