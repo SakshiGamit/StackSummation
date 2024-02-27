@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name":"The Chosen",
+        "language":"English",
+        "genre":"Drama"
+    },   
+    {
+        "id":2,
+        "name":"Docter Slump",
+        "language":"Korean",
+        "genre":"Comedy, Romance"
+    },
+    {
+        "id":3,
+        "name":"Money Heist",
+        "language":"English",
+        "genre":"Thriller"
+    },
+    {
+        "id":4,
+        "name":"Hidden Love",
+        "language":"Chinese",
+        "genre":"Romance"
+    },
+    {
+        "id":5,
+        "name":"Boss Baby",
+        "language":"English",
+        "genre":"Kids"
+    },
+    {
+        "id":6,
+        "name":"Hotel Transylvania",
+        "language":"English",
+        "genre":"Kids"
+    },
+    {
+        "id":7,
+        "name":"Little Things",
+        "language":"Hindi",
+        "genre":"Comedy Drama"
+    },
+    {
+        "id":8,
+        "name":"The King",
+        "language":"Korean",
+        "genre":"Fantasy, Rom-Com"
+    },
+    {
+        "id":9,
+        "name":"A Week Away",
+        "language":"English",
+        "genre":"Christian Musical"
+    },
+    {
+        "id":10,
+        "name":"Vincenzo",
+        "language":"Korean, Italian",
+        "genre":"Crime, Drama, Dark comedy, Romance"
+    }
+]
