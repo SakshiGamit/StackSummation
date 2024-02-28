@@ -2,4 +2,4 @@
 ![web](pic1.png)
 
 # Props with cards
-![web](pic1.png)
+![web](pic2.png)
