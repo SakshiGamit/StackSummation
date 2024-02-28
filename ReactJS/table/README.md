@@ -2,4 +2,4 @@
 ![web](pic1.png)
 
 # Props with cards
-![web](ReactJS\table\pic2.png)
+![web](pic2.png)
