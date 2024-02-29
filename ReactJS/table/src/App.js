@@ -1,6 +1,8 @@
 import JsonDataDisplay from "./table";
 import "./index.css";
 import Card from "./Card";
+import Netdata from "./Netdata";
+  
 
 function App() {
   return (
@@ -9,25 +11,25 @@ function App() {
       <JsonDataDisplay />
       <div className="cards">
         <Card
-          imgsrc="https://m.media-amazon.com/images/M/MV5BZGVlZDI3MzEtNDE1OC00ZjUzLWIxOGItNDc2YWI3MzNjM2I4XkEyXkFqcGdeQXVyMTYwNzY4MjMx._V1_.jpg"
-          alt="The Chosen"
-          title="Angel Studios"
-          sname="The Chosen"
-          link="https://www.netflix.com/title/81622757"
+          imgsrc={Netdata[0].imgsrc}
+          alt={Netdata[0].alt}
+          title={Netdata[0].title}
+          sname={Netdata[0].sname}
+          link={Netdata[0].link}
         />
         <Card
-          imgsrc="https://pbs.twimg.com/media/EVN7q85U4AIj6Sb.jpg"
-          alt="The King: Eternal Monarch"
-          title="A Netflix Series"
-          sname="The King: Eternal Monarch"
-          link="https://www.netflix.com/title/81260283"
+          imgsrc={Netdata[1].imgsrc}
+          alt={Netdata[1].alt}
+          title={Netdata[1].title}
+          sname={Netdata[1].sname}
+          link={Netdata[1].link}
         />
         <Card
-          imgsrc="https://m.media-amazon.com/images/M/MV5BOTFmZTczNjUtNDk0Mi00NGI2LTliNmItYzg5MmY4YTk1NmNmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
-          alt="A Week Away"
-          title="A Netflix Series"
-          sname="A Week Away"
-          link="https://www.netflix.com/in/title/81183451?source=35"
+          imgsrc={Netdata[2].imgsrc}
+          alt={Netdata[2].alt}
+          title={Netdata[2].title}
+          sname={Netdata[2].sname}
+          link={Netdata[2].link}
         />
       </div>
     </div>
