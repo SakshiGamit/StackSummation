@@ -2,7 +2,17 @@ import JsonDataDisplay from "./table";
 import "./index.css";
 import Card from "./Card";
 import Netdata from "./Netdata";
-  
+
+// function cardinfo(info) {
+//   return(
+//   <Card
+//   imgsrc={info.imgsrc}
+//   alt={info.alt}
+//   title={info.title}
+//   sname={info.sname}
+//   link={info.link}
+// />);
+// }
 
 function App() {
   return (
@@ -10,27 +20,17 @@ function App() {
       <h1 className="net">Netflix Series</h1>
       <JsonDataDisplay />
       <div className="cards">
-        <Card
-          imgsrc={Netdata[0].imgsrc}
-          alt={Netdata[0].alt}
-          title={Netdata[0].title}
-          sname={Netdata[0].sname}
-          link={Netdata[0].link}
-        />
-        <Card
-          imgsrc={Netdata[1].imgsrc}
-          alt={Netdata[1].alt}
-          title={Netdata[1].title}
-          sname={Netdata[1].sname}
-          link={Netdata[1].link}
-        />
-        <Card
-          imgsrc={Netdata[2].imgsrc}
-          alt={Netdata[2].alt}
-          title={Netdata[2].title}
-          sname={Netdata[2].sname}
-          link={Netdata[2].link}
-        />
+        {Netdata.map((info) => {
+          return (
+            <Card
+              imgsrc={info.imgsrc}
+              alt={info.alt}
+              title={info.title}
+              sname={info.sname}
+              link={info.link}
+            />
+          );
+        })}
       </div>
     </div>
   );

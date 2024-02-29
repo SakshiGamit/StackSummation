@@ -31,13 +31,14 @@ code {
   color: black;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   box-sizing: border-box;
   padding: 5rem;
 }
 .card{
   width: 22rem;
-  
+  margin: 3rem;
 }
 .card:hover{
   border: 5px solid white;
@@ -52,7 +53,11 @@ code {
   background-color: #b81d24;
   border: none;
   color: white;
+  cursor: pointer;
 }
 .btn:hover{
   background-color: #ec0a0a;
+}
+.btn:active{
+  border-color: #b81d24;
 }

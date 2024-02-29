@@ -19,6 +19,20 @@ const Netdata = [
     title: "A Netflix Series",
     sname: "A Week Away",
     link: "https://www.netflix.com/in/title/81183451?source=35"
+  },
+  {
+    imgsrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNC4YyniyVENznL1U4q6r7_DAtBcIWhvkf0wv9iw6rrKx8kIUh",
+    alt: "Black Knight",
+    title: "A Netflix Series",
+    sname: "Black Knight",
+    link: "https://www.netflix.com/in/title/81195027?source=35",
+  },
+  {
+    imgsrc: "https://m.media-amazon.com/images/M/MV5BYTIxZGYyNDAtNjNiNy00MTdjLWE5OTAtZTA3ZDQ5YzdlZGYxXkEyXkFqcGdeQXVyMTI1OTY3MzM3._V1_FMjpg_UX1000_.jpg",
+    alt: "Our Beloved Summer",
+    title: "A Netflix Series",
+    sname: "Our Beloved Summer",
+    link: "https://www.netflix.com/title/81486372",
   }
 ];
 
