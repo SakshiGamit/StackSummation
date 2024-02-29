@@ -5,8 +5,8 @@ import JsonData from './data.json';
     const DisplayData=JsonData.map(
         (info)=>{
             return(
-                <tr>
-                    <td>{info.id}</td>
+                <tr key={info.id}>
+                    <td >{info.id}</td>
                     <td>{info.name}</td>
                     <td>{info.language}</td>
                     <td>{info.genre}</td>

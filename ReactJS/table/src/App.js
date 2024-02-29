@@ -3,17 +3,6 @@ import "./index.css";
 import Card from "./Card";
 import Netdata from "./Netdata";
 
-// function cardinfo(info) {
-//   return(
-//   <Card
-//   imgsrc={info.imgsrc}
-//   alt={info.alt}
-//   title={info.title}
-//   sname={info.sname}
-//   link={info.link}
-// />);
-// }
-
 function App() {
   return (
     <div className="App">
@@ -23,6 +12,7 @@ function App() {
         {Netdata.map((info) => {
           return (
             <Card
+              key={info.id}
               imgsrc={info.imgsrc}
               alt={info.alt}
               title={info.title}
