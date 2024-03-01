@@ -1,15 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import JsonDataDisplay from "./table";
 import "./index.css";
 import Card from "./Card";
-import Netdata from "./Netdata";
-
-let count = 1;
-function IncNum() {
-  count++;
-}
+import Netdata from "./Netdata";   
+import Hooks from "./Hooks"
 
 function App() {
+  //usestate hook
+  
   return (
     <div className="App">
       <h1 className="net">Netflix Series</h1>
@@ -28,10 +26,7 @@ function App() {
           );
         })}
       </div>
-        <div className="btnInc">
-        <h1 className="count">{count}</h1>
-        <button className="btn" onClick={IncNum}>Click Me</button>
-        </div>
+      <Hooks />
     </div>
   );
 }
