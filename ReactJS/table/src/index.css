@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  
+  color: white;
 }
 
 code {
@@ -60,4 +60,8 @@ code {
 }
 .btn:active{
   border-color: #b81d24;
+}
+.btnInc .btn{
+  background-color: blue;
+  margin-bottom: 1rem;
 }
