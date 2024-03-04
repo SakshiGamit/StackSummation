@@ -44,7 +44,8 @@ const Form = () => {
           pass: value,
         };
       }
-    });
+    }
+    );
   };
 
   const handleSubmit = (e) => {
@@ -118,3 +119,4 @@ export default Form;
 //3 : Create 2 functions that are mentioned in rerurn(), Here : handleSubmit() & handleData()
 //4 : In handleData access name and values using e.target with destructuring object
 // - Use if-else stat. with function mentioned in useState hook in same handleData func.
+// - Or you can use Spread Operator
