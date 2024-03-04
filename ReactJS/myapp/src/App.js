@@ -4,6 +4,7 @@ import Greet, {today, time} from './Greet';
 import List from './List';
 import {add, sub, mul, div} from './Calc1';
 import './App.css';
+import Form from './Form';
 
 function App() {
   return ( <>
@@ -20,6 +21,8 @@ function App() {
       <li>The division of two numbers is {div(40,3)}</li>
       <li>The multiplication of two numbers is {mul(40,4)}</li>
     </ul>
+
+    <Form />
     </>
   );
 }
