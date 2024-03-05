@@ -1,0 +1,37 @@
+.container{
+  background-color: #ffffff;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  /* width: auto; */
+  padding: 2.5rem;
+  width: 70vh;
+  box-shadow: 5px 5px 5px rgb(121, 215, 252);
+}
+.img{
+  background-image: url("logo.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+}
+li{
+  color: #1160aa;
+}
+ol{
+  margin: 0;
+}
+hr{
+  margin: 0.5rem 0 0.5rem 0;
+  color: #1c73c5;
+}
+.list .btn-outline-primary{
+  font-size: 1.2rem;
+  color: #1160aa;
+  border: none;
+}
+.btn:hover{
+  color: #ffffff;
+  background-color: #1160aa;
+}
+
+
+
