@@ -46,7 +46,7 @@ const Main = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="Add item"
+            placeholder="Add your task here..."
             onChange={itemEvent}
             value={item}
             style={{ color: "#1160aa", fontWeight: "500" }}
