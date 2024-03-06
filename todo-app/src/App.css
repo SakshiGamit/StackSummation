@@ -1,37 +1,50 @@
-.container{
+:root {
+  --blue: #1160aa;
+}
+
+.container {
   background-color: #ffffff;
   margin: 1rem;
   border-radius: 0.5rem;
   /* width: auto; */
   padding: 2.5rem;
   width: 70vh;
-  box-shadow: 5px 5px 5px rgb(121, 215, 252);
+  box-shadow: 4px 5px 5px rgb(215, 242, 253, 0.6);
 }
-.img{
-  background-image: url("logo.jpg");
+.img {
+  background-image: url("to.png");
   background-size: cover;
-  width: 250px;
-  height: 200px;
+  width: 230px;
+  height: 180px;
 }
-li{
-  color: #1160aa;
+
+li {
+  color: var(--blue);
 }
-ol{
+
+ol {
   margin: 0;
 }
-hr{
-  margin: 0.5rem 0 0.5rem 0;
-  color: #1c73c5;
-}
-.list .btn-outline-primary{
+
+.list .btn-outline-primary {
   font-size: 1.2rem;
-  color: #1160aa;
+  color: var(--blue);
   border: none;
 }
-.btn:hover{
+
+.btn:hover {
   color: #ffffff;
-  background-color: #1160aa;
+  background-color: var(--blue);
 }
 
+h1 {
+  margin: 0;
+}
 
-
+.head p {
+  font-size: 0.95rem;
+  font-weight: normal;
+  margin-left: 0.5rem;
+  color: #0077b6;
+  font-family: cursive ;
+}
