@@ -1,13 +1,15 @@
-import React from 'react';
-import Head from './Head';
-import Greet, {today, time} from './Greet';
-import List from './List';
-import {add, sub, mul, div} from './Calc1';
-import './App.css';
-import Form from './Form';
+import React from "react";
+import Head from "./Head";
+import Greet, { today, time } from "./Greet";
+import List from "./List";
+import { add, sub, mul, div } from "./Calc1";
+import "./App.css";
+import Form from "./Form";
+import "./index.css";
 
 function App() {
-  return ( <>
+  return (
+    <>
     <Greet />
     <Head />
     <List />
