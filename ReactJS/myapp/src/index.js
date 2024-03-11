@@ -1,21 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from './App';
 
-ReactDOM.render(
-  //[ use , while using array in render method to separate elements
-    <>
-    {/* //<div>  */}
-    {/* <React.Fragment> */}
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
     <App />
-    {/* </div> */}
-    {/* </React.Fragment> */}
-    </> 
-  //]
-  , document.getElementById("root")
 );
-  
-
-
-

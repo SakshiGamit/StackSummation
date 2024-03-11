@@ -6,6 +6,8 @@ import { add, sub, mul, div } from "./Calc1";
 import "./App.css";
 import Form from "./Form";
 import "./index.css";
+import "./IncDec";
+import IncDec from "./IncDec";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
     </ul>
 
     <Form />
+    <IncDec />
     </>
   );
 }
