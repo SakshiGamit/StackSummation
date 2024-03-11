@@ -1,2 +1,2 @@
 # ToDo App
-![web](ToDO.png)
+[Let's do it!](https://todos-of-bucket-list.netlify.app/)

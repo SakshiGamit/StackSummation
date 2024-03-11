@@ -67,7 +67,7 @@ const ToDo = () => {
                             <p className="fw-normal ms-2">What needs to be done.</p>
                         </div>
                         <figure>
-                            <img alt-text="logo" src={require("./to.png")}></img>
+                            <img src={require("./to.png")} alt="logo"></img>
                         </figure>
                     </div>
                     <div className="input-group mb-3">
