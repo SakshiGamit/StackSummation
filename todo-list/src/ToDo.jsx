@@ -51,10 +51,14 @@ const ToDo = () => {
             return index !== elem.id;
         });
         setItems(updatedList);
+        setInputData("");
+        setToggleSub(true);
     };
     //remove all
     const removeAll = () => {
         setItems([]);
+        setInputData("");
+        setToggleSub(true);
     };
 
     return (
