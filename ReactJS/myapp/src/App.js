@@ -1,13 +1,12 @@
 import React from "react";
-import Head from "./Head";
-import Greet, { today, time } from "./Greet";
-import List from "./List";
-import { add, sub, mul, div } from "./Calc1";
-import "./App.css";
-import Form from "./Form";
+import Head from "./component/Head";
+import Greet, { today, time } from "./component/Greet";
+import List from "./component/List";
+import { add, sub, mul, div } from "./component/Calc1";
+import Form from "./component/Form";
 import "./index.css";
-import "./IncDec";
-import IncDec from "./IncDec";
+import IncDec from "./component/IncDec";
+import "./App.css";
 
 function App() {
   return (
