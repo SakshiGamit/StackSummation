@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import JsonDataDisplay from "./table";
 import "./index.css";
 import Card from "./Card";

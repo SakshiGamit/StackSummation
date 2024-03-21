@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 function Hooks() {
   const [count, setCount] = useState(0); //used array destructuring
@@ -34,6 +35,14 @@ function Hooks() {
   //Pokemon value state
   const [pokNum, setPokNum] = useState();
 
+  useEffect(() => {
+    async function getData(){
+      const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokNum}`);
+      console.log(res.data.name);
+    }
+    getData();
+  }, [pokNum]);
+
   return (
     <div className="btnInc d-flex flex-column align-items-center">
       <h1 className="count">{count}</h1>
@@ -56,7 +65,7 @@ function Hooks() {
       {/* use of axious */}
       <br />
       <h1>Pokemon</h1>
-      <p>You choose {pokNum}</p>
+      <h5>You choose {pokNum}</h5>
       <select
         className=" w-auto form-select mb-3"
         value={pokNum}
@@ -72,5 +81,5 @@ function Hooks() {
       </select>
     </div>
   );
-}  
+}
 export default Hooks;
