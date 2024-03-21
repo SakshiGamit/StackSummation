@@ -192,5 +192,3 @@ Para.remove();
 let Content = document.querySelector(".content");
 //Content.setAttribute("class","newContent"); //it will overwrite the old class name instead of appending
 Content.classList.add("newContent");
-
-
