@@ -34,11 +34,16 @@ function Hooks() {
 
   //Pokemon value state
   const [pokNum, setPokNum] = useState();
+  const [name, setName]= useState();
+  const[ moves, setMoves]=useState();
 
   useEffect(() => {
     async function getData(){
       const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokNum}`);
-      console.log(res.data.name);
+      console.log(res.data);
+
+      setName(res.data.name);
+      setMoves(res.data.moves.length);
     }
     getData();
   }, [pokNum]);
@@ -63,11 +68,15 @@ function Hooks() {
       <h1>{dTime}</h1>
 
       {/* use of axious */}
-      <br />
+      <br /> 
       <h1>Pokemon</h1>
-      <h5>You choose {pokNum}</h5>
+      <h5>You choose <span style={{color: "red"}}>{pokNum}</span>. </h5>
+      <h5>My name is <span style={{color: "red"}}>{name}</span> </h5>
+      <h5>I have <span style={{color: "red"}}>{moves}</span> move.</h5>
+      
       <select
         className=" w-auto form-select mb-3"
+        id="selPok"
         value={pokNum}
         onChange={(event) => {
           setPokNum(event.target.value);
